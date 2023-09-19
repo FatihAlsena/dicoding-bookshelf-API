@@ -1,0 +1,21 @@
+{
+  "name": "dicoding-bookshelf-api",
+  "version": "1.0.0",
+  "description": "Submission GigaChad-API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Fatih Alsena",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "nodemon": "^2.0.21"
+  },
+  "devDependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^3.3.4"
+  }
+}
